@@ -1,0 +1,11 @@
+package fileCreatorYouzbashi;
+
+import java.io.IOException;
+
+public abstract class ReaderProductYouzbashi {
+
+	public abstract String [] leseAusDatei() throws IOException;
+	
+	public abstract void schliesseDatei() throws IOException;
+	
+}
